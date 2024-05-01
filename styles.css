@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.image{
+    width: 4rem;
+    height: 4rem;
+    
+}
+.bName{
+    margin-left: 2rem;
+}
+.navigation{
+    background-color: #03002E;
+}
+.carousel-container{
+    margin-top: 1rem;
+    
+}
+.carousel-inner p{
+     text-align: center ;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 5rem !important;
+}
+/* @media(max-width:900){
+    .carousel-caption  p, h2{
+        justify-content: center !important;
+        font-size: 25px !important;
+    }
+} */
+/* Larger text size for desktop screens */
+@media only screen and (min-width: 768px) {
+    .carousel-caption p {
+      font-size: 25px !important;
+    }
+  }
+@media(max-width:768px){
+    .carousel-container{
+        
+        display: block !important;
+    }
+    
+    .custom-toggler.navbar-toggler-icon{
+        background-color: #fff;
+    }
+    .card-container{
+        margin-top: 2rem;
+    }
+    
+}
+.btn-link{
+    background-color: #03002E;
+    color: white;
+    text-decoration: none;
+
+}
+ body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .lead li{
+    list-style: none !important;
+  }
+  .about_page{
+    font-size: 20px;
+  }
+  a.navbar-brand {
+    
+  }
+  .btn:hover {
+    background-color: #C90076 !important;
+    color: #fff !important;
+  }
+  .navHover:hover{
+    background-color: #C90076 !important;
+
+  }
+  
+  
+  
+  
